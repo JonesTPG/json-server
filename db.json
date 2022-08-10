@@ -1,14 +1,100 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "Test Product 1",
-      "price": 23
-    },
-    {
-      "id": 2,
-      "name": "Test Product 2",
-      "price": 53
-    }
-  ]
+   "products":[
+      {
+         "identifier":"top",
+         "enabled":true,
+         "family":"tshirt",
+         "categories":[
+            "summer_collection"
+         ],
+         "groups":[
+            
+         ],
+         "parent":null,
+         "values":{
+            "name":[
+               {
+                  "data":"Top",
+                  "locale":"en_US",
+                  "scope":null
+               },
+               {
+                  "data":"Débardeur",
+                  "locale":"fr_FR",
+                  "scope":null
+               }
+            ],
+            "description":[
+               {
+                  "data":"Summer top",
+                  "locale":"en_US",
+                  "scope":"ecommerce"
+               },
+               {
+                  "data":"Top",
+                  "locale":"en_US",
+                  "scope":"tablet"
+               },
+               {
+                  "data":"Débardeur pour l'été",
+                  "locale":"fr_FR",
+                  "scope":"ecommerce"
+               },
+               {
+                  "data":"Débardeur",
+                  "locale":"fr_FR",
+                  "scope":"tablet"
+               }
+            ],
+            "price":[
+               {
+                  "locale":null,
+                  "scope":null,
+                  "data":[
+                     {
+                        "amount":"15.5",
+                        "currency":"EUR"
+                     },
+                     {
+                        "amount":"15",
+                        "currency":"USD"
+                     }
+                  ]
+               }
+            ],
+            "color":[
+               {
+                  "locale":null,
+                  "scope":null,
+                  "data":"black",
+                  "linked_data":{
+                     "attribute":"color",
+                     "code":"black",
+                     "labels":{
+                        "en_US":"Black",
+                        "fr_FR":"Noir"
+                     }
+                  }
+               }
+            ],
+            "size":[
+               {
+                  "locale":null,
+                  "scope":null,
+                  "data":"m",
+                  "linked_data":{
+                     "attribute":"size",
+                     "code":"m",
+                     "labels":{
+                        "en_US":"M",
+                        "fr_FR":"M"
+                     }
+                  }
+               }
+            ]
+         },
+         "created":"2016-06-23T18:24:44+02:00",
+         "updated":"2016-06-25T17:56:12+02:00"
+      }
+   ]
 }
